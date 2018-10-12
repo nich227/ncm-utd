@@ -201,7 +201,7 @@
 		}
 
 		a:hover {
-			color: #ff7496;
+			color: #f6ff74;
 		}
 
 	strong, b {
@@ -915,7 +915,8 @@
 				display: block;
 				margin: 0 auto;
 				border-radius: 0%;
-				box-shadow: 0 0 0 1.5em #ffffff;
+				box-shadow: 0 0 0 1.5em #ffffffec;
+				opacity: 1;
 			}
 
 			#main .avatar:before {
