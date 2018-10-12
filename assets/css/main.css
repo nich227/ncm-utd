@@ -220,6 +220,7 @@
 		color: #313f47;
 		line-height: 1.5;
 		margin: 0 0 0.75em 0;
+		font-weight: bold;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -760,7 +761,7 @@
 				}
 
 				ul.icons li a:hover:before {
-					text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+					text-shadow: 1.25px 0px 0px #dac828, -1.25px 0px 0px #dac828, 0px 1.25px 0px #dac828, 0px -1.25px 0px #dac828;
 				}
 
 				ul.icons li a:before {
@@ -776,7 +777,7 @@
 				}
 
 				ul.icons li a:hover {
-					border-color: #ff7496;
+					border-color: #dac828;
 				}
 
 		@media screen and (max-width: 480px) {
@@ -821,8 +822,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: #ff7496;
-			color: #ff7496 !important;
+			border-color: #dac828;
+			color: #dac828 !important;
 		}
 
 		input[type="submit"].icon,
@@ -901,7 +902,7 @@
 		opacity: 0.90;
 		position: relative;
 		text-align: center;
-		width: 35em;
+		width: 60em;
 	}
 
 		#main .avatar {
@@ -913,7 +914,7 @@
 			#main .avatar img {
 				display: block;
 				margin: 0 auto;
-				border-radius: 100%;
+				border-radius: 0%;
 				box-shadow: 0 0 0 1.5em #ffffff;
 			}
 
