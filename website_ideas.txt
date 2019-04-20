@@ -1,0 +1,3 @@
+Photo Gallery (also try to use ncm's gmail account to store photos)
+Have a calendar that syncs with ncm's calendar 
+Have a sign up page to be added to our email list (hopefully mailchimp this next semester)
