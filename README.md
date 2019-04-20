@@ -1,185 +1,97 @@
-<div align="center">
-    <img src="static/logos/logo-1024.png" alt="Logo" width='200px' height='200px'/>
-</div>
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<p align="center">
+  <a href="https://www.gatsbyjs.org">
+    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Gatsby's hello-world starter
+</h1>
 
-# Gatsby v2
+Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
-NOTE: This is a Gatsby v2 fork of [gatsby-starter-casper](https://github.com/haysclark/gatsby-starter-casper) by [@haysclark](https://github.com/haysclark). The upgrade to v2 was mostly done by [@hnspn](https://github.com/hnspn) with a little help from the folks at [GatsbyCentral](https://www.gatsbycentral.com/).
+_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
-# Gatsby Casper Starter
-[![Code Climate](https://codeclimate.com/github/haysclark/gatsby-starter-casper/badges/gpa.svg)](https://codeclimate.com/github/haysclark/gatsby-starter-casper)
-[![Issue Count](https://codeclimate.com/github/haysclark/gatsby-starter-casper/badges/issue_count.svg)](https://codeclimate.com/github/haysclark/gatsby-starter-casper)
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+## 🚀 Quick start
 
-A blog starter for [Gatsby](https://github.com/gatsbyjs/gatsby/), utilizing the popular [Casper (v1.4)](https://github.com/TryGhost/Casper/tree/1.4) theme authored by [Ghost.io](https://ghost.io/).  The project is based on [Gatsby Advanced Starter](https://github.com/Vagr9K/gatsby-advanced-starter) and has a lot on common with the [Gatsby Material Starter](https://github.com/Vagr9K/gatsby-material-starter), but will evolve separately. In this project the single Casper CSS file has been carefully extracted into individual components with only minor tweaks.
+1.  **Create a Gatsby site.**
 
-This starter also serves as example for the [Gatsby-Pagination](https://github.com/infinitedescent/gatsby-pagination) library.
+    Use the Gatsby CLI to create a new site, specifying the hello-world starter.
 
-[Demo website.](https://haysclark.github.io/gatsby-starter-casper/)
+    ```sh
+    # create a new Gatsby site using the hello-world starter
+    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
+    ```
 
-![Screenshot](docs/screenshot.png)
+1.  **Start developing.**
 
-## Features
+    Navigate into your new site’s directory and start it up.
 
-* Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
-* Separate components for everything
-* High configurability:
-  * Site information
-  * Site social profiles
-  * Copyright information
-  * More!
-* Author segment
-  * Name
-  * Location
-  * Description
-  * Links
-  * Follow Me button
-  * Social profiles
-* Posts in Markdown
-  * Code syntax highlighting
-  * Embed YouTube videos
-  * Embed Tweets
-  * Pages support pagination
-  * Read More linked paginated pages  
-* Tags
-  * Separate page for posts under each tag
-  * Pages support pagination.
-* Categories (pages generated but not linked in theme)
-  * Separate page for posts under each category
-* Disqus support (needs to be uncommented)
-  * Notifications about new disqus comments
-* Google Analytics support
-* NPM scripts for GitHub Pages deployment
-* Social features (uncomment code to use)
-  * Twitter tweet button
-  * Facebook share/share count
-  * Google+ share button
-  * easily to add more!
-* SEO
-  * Sitemap generation
-  * robots.txt
-  * General description tags
-  * Schema.org JSONLD (Google Rich Snippets)
-  * OpenGraph Tags (Facebook/Google+/Pinterest)
-  * Twitter Tags (Twitter Cards)
-* RSS feeds
-* Loading progress for slow networks
-* Offline support
-* Web App Manifest support
-* Development tools
-  * ESLint for linting
-  * Prettier for code style
-  * Remark-Lint for linting Markdown
-  * write-good for linting English prose
-  * gh-pages for deploying to GitHub pages
-  * CodeClimate configuration file and badge
+    ```sh
+    cd my-hello-world-starter/
+    gatsby develop
+    ```
 
-NOTE: Feel free to check out [Gatsby Material Starter](https://github.com/Vagr9K/gatsby-material-starter) if you are interested in a more opinionated starter with Material Design in mind.
+1.  **Open the source code and start editing!**
 
-## Getting Started
+    Your site is now running at `http://localhost:8000`!
 
-Install this starter (assuming [Gatsby](https://github.com/gatsbyjs/gatsby/) is installed) by running from your CLI:
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-```sh
-gatsby new YourProjectName https://github.com/haysclark/gatsby-starter-casper
-gatsby develop
-```
+    Open the `my-hello-world-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-Alternatively, you can clone the repo or a fork of the repo and install it manually.
+## 🧐 What's inside?
 
-```sh
-git clone https://github.com/haysclark/gatsby-starter-casper YourProjectName # Clone the project
-cd YourProjectname
-rm -rf .git # Optional, you can leave the .git history for future rebasing
-npm install # or yarn install
-npm run develop # or gatsby develop
-```
+A quick look at the top-level files and directories you'll see in a Gatsby project.
 
-## Configuration
+    .
+    ├── node_modules
+    ├── src
+    ├── .gitignore
+    ├── .prettierrc
+    ├── gatsby-browser.js
+    ├── gatsby-config.js
+    ├── gatsby-node.js
+    ├── gatsby-ssr.js
+    ├── LICENSE
+    ├── package-lock.json
+    ├── package.json
+    └── README.md
 
- Edit the export object in `data/SiteConfig`:
+1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
 
- ```js
- module.exports = {
-     blogPostDir: "sample-posts", // The name of directory that contains your posts.
-     blogAuthorDir: "sample-authors", // The name of directory that contains your authors.
-     blogAuthorId: "casper", // The default and fallback author ID used for blog posts without a defined author.
-     siteTitle: "Gatsby Casper Starter", // Site title.
-     siteTitleAlt: "GatsbyJS Casper Theme Starter", // Alternative site title for SEO.
-     siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
-     siteUrl: "https://haysclark.github.io", // Domain of your website without pathPrefix.
-     pathPrefix: "/gatsby-starter-casper", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
-     siteDescription: "A Casper themed GatsbyJS stater based on the Advanced Starter.", // Website description used for RSS feeds/meta description tag.
-     siteCover: "/images/blog-cover.jpg", // Optional, the cover image used in header for home page.
-     siteNavigation: true, // If navigation is enabled the Menu button will be visible
-     siteRss: "/rss.xml", // Path to the RSS file.
-     siteRssAuthor: "Casper User", // The author name used in the RSS file
-     // siteFBAppID: "1825356251115265", // optional, sets the FB Application ID for using app insights
-     sitePaginationLimit: 10, // The max number of posts per page.
-     googleAnalyticsID: "UA-111982167-1", // GA tracking ID.
-     siteSocialUrls: [
-       "https://github.com/haysclark/gatsby-starter-casper",
-       "https://twitter.com/gatsbyjs",
-       "mailto:gatsbyjs@example.com"
-     ],
-     postDefaultCategoryID: "Tech", // Default category for posts.
-     // Links to social profiles/projects you want to display in the navigation bar.
-     userLinks: [
-       {
-         label: "GitHub",
-         url: "https://github.com/haysclark/gatsby-starter-casper",
-         iconClassName: "fa fa-github" // Disabled, see Navigation.jsx
-       },
-       {
-         label: "Twitter",
-         url: "https://twitter.com/gatsbyjs",
-         iconClassName: "fa fa-twitter" // Disabled, see Navigation.jsx
-       },
-       {
-         label: "Email",
-         url: "mailto:gatsbyjs@example.com",
-         iconClassName: "fa fa-envelope" // Disabled, see Navigation.jsx
-       }
-     ],
-     // Copyright string for the footer of the website and RSS feed.
-     copyright: {
-       label: "Gatsby Casper Starter" // Label used before the year
-       // year: "2018" // optional, set specific copyright year or range of years, defaults to current year
-       // url: "https://www.gatsbyjs.org/" // optional, set link address of copyright, defaults to site root
-     },
-     themeColor: "#c62828", // Used for setting manifest and progress theme colors.
-     backgroundColor: "#e0e0e0", // Used for setting manifest background color.
-     promoteGatsby: true // Enables the GatsbyJS promotion information in footer.
-   };
- ```
+2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
- You can also optionally set `pathPrefix`:
- ```js
- module.exports = {
-  // Note: it must *not* have a trailing slash.
-       pathPrefix: '/gatsby-starter-casper', // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
-}
+3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
- ```
+4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
- WARNING: Make sure to edit `static/robots.txt` to include your domain for the sitemap!
+5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
-## Content
+6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
 
-### Posts
+7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-Posts are authored using Markdown and include some optional YAML frontmatter data properties.  Each post should have a separate folder for the .md file in addition to any images or other media related to that post.  Posts are stored in a subfolder in the ```/content/``` directory; the target subfolder is set by the _blogPostDir_ property in _SiteConfig.js_.
+8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
-### Authors
+9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
 
-Each post can reference the author of the post, if the author is not set the default author will be used; which is controlled by the _blogAuthorId_ property in _SiteConfig.js_.  All authors, including the default author (aka _blodAuthorId_) must have an author JSON file.  These JSON files MUST be stored in a folder names ```authors```, for Gatsby to parse them correctly.  The location of this ```authors``` folder can be controlled by the _blogAuthorDir_ property in _SiteConfig.js_. It IS possible to have the ```authors``` folder inside the  _blogPostDir_ folder.
+10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
-## Contributing
+11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-👍🎉 First off, thanks for taking the time to contribute! 🎉👍
+12. **`README.md`**: A text file containing useful reference information about your project.
 
-The project uses [Conventional Commits](https://conventionalcommits.org/) which are simple and easy to follow. In general, use your best judgment, and feel free to propose changes by creating an issue and then mention the issue in your pull request.
+## 🎓 Learning Gatsby
 
-## License
+Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
 
-MIT
+- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+
+- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+
+## 💫 Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
+
+<!-- AUTO-GENERATED-CONTENT:END -->
