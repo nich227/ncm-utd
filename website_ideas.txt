@@ -1,9 +1,0 @@
-1. Photo Gallery (also try to use ncm's gmail account to store photos) [put in home page?]
-2. Calendar that syncs with ncm's calendar (aka upcoming events) [put in events]
-3. Sign up page to be added to our email list (hopefully mailchimp this next semester) [get involved]
-4. Meet the officers page [about]
-5. Link to sync with ncm's calendar [get involved]
-
---------------------------------------------------------------------------------------------
-HOME    |    ABOUT    |   EVENTS   |   GET INVOLVED   |   
---------------------------------------------------------------------------------------------
