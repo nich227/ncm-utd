@@ -29,6 +29,7 @@
               "src/_redirects"
             ],
             "styles": [
+              "node_modules/bulma/css/bulma.css",
               "src/styles.sass"
             ],
             "scripts": []
