@@ -35,7 +35,7 @@
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
-              "src/app/components/navbar/nav-active.js"
+              "src/app/components/navbar/nav-burger.js"
             ]
           },
           "configurations": {
