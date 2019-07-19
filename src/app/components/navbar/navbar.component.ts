@@ -7,8 +7,8 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 })
 export class NavbarComponent {
 
-  @ViewChild('navBurger') navBurger: ElementRef;
-  @ViewChild('navMenu') navMenu: ElementRef;
+  @ViewChild('navBurger', {static:true}) navBurger: ElementRef;
+  @ViewChild('navMenu', {static:true}) navMenu: ElementRef;
 
   toggleNavbar() {
     this.navBurger.nativeElement.classList.toggle("is-active");
