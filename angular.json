@@ -34,8 +34,7 @@
               "src/styles.sass"
             ],
             "scripts": [
-              "node_modules/jquery/dist/jquery.min.js",
-              "src/app/components/navbar/nav-burger.js"
+              "node_modules/jquery/dist/jquery.min.js"
             ]
           },
           "configurations": {
