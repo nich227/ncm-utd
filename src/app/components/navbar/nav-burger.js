@@ -1,5 +1,3 @@
-
-
 $(document).ready(function() {
 
   // Check for click events on the navbar burger icon
