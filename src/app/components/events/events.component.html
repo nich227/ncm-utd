@@ -1,19 +1,36 @@
 <head>
-   <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
-   <meta name="viewport" content="width: device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width: device-width, initial-scale=1">
 </head>
+
 <body class="has-navbar-fixed-top">
-   <!--Navbar-->
-   <app-navbar></app-navbar>
-   <!--Hero with header and footer-->
-   <section class="hero is-info is-bold is-fullheight">
-      <!--Body-->
-      <div class="hero-body">
-         <div class="container has-text-centered">
-            <h1 class="title">This website is under construction</h1>
-         </div>
+  <!--Navbar-->
+  <app-navbar></app-navbar>
+  <!--Hero with header and footer-->
+  <div class="container">
+    <div class="section has-background-light">
+      <p class="title is-spaced has-text-centered">Events This Week</p>
+      <br>
+
+      <div class="box" id="eventTmpl">
+        <div class="columns">
+          <div class="column has-text-centered">
+            <img
+              src="https://aleteiaen.files.wordpress.com/2016/05/web-eucharist-host-chalice-communion-sebastian-duda-shutterstock_217229680.jpg?quality=100&strip=all&w=620&h=310&crop=1"
+              alt="Eucharist" width="60%" height="60%">
+          </div>
+          <div class="column">
+            <p class="heading is-event-header has-text-centered" id="event-title">Event</p>
+            <br>
+            <p class="has-text-centered" id="event-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <br>
+            <p class="heading is-event-footer has-text-centered" id="event-date">December 25, 2019 @ 8-9 pm</p>
+          </div>
+        </div>
       </div>
-   </section>
-   <!--Footer-->
-   <app-footer></app-footer>
+
+    </div>
+  </div>
+  <!--Footer-->
+  <app-footer></app-footer>
 </body>

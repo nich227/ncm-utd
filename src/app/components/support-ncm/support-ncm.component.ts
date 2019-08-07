@@ -11,8 +11,8 @@ export class SupportNcmComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $("body").css("display", "none");
     $(document).ready(function() {
-      $("body").css("display", "none");
       $("body").fadeIn(1000);
     });
   }

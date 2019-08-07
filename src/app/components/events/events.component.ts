@@ -11,10 +11,16 @@ export class EventsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $("body").css("display", "none");
     $(document).ready(function() {
-      $("body").css("display", "none");
       $("body").fadeIn(1000);
     });
+    this.loadEvents();
   }
 
+  loadEvents() {
+    let numEvents = 0;
+    numEvents++;
+    $("#eventTmpl").clone().attr("id", "event"+numEvents).appendTo(".section").css("display","block");
+  }
 }
