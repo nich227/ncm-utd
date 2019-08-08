@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import $ from "jquery";
+import { timeout } from 'q';
+
+declare function parseEvents(): any;
 
 @Component({
   selector: 'app-events',
@@ -15,12 +18,6 @@ export class EventsComponent implements OnInit {
     $(document).ready(function() {
       $("body").fadeIn(1000);
     });
-    this.loadEvents();
-  }
-
-  loadEvents() {
-    let numEvents = 0;
-    numEvents++;
-    $("#eventTmpl").clone().attr("id", "event"+numEvents).appendTo(".section").css("display","block");
+    parseEvents();
   }
 }

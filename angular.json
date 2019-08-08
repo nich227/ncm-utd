@@ -34,7 +34,8 @@
               "src/styles.sass"
             ],
             "scripts": [
-              "node_modules/jquery/dist/jquery.min.js"
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/app/components/events/populate-events.js"
             ]
           },
           "configurations": {
