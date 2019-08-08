@@ -1,28 +1,25 @@
-function parseEvents() {
+function populateEvents() {
   //Get JSON file from repo
   $.getJSON("https://raw.githubusercontent.com/nich227/ncm-utd/master/src/assets/events.json", function (json) {
-    alert(json.events[0].location);
-  });
+    //Get today's date
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    var yyyy = today.getFullYear();
 
-  //putEvents();
-}
+    today = yyyy + '-' + mm + '-' + dd;
 
-function putEvents() {
-  //Get today's date
-  var today = new Date();
-  var dd = String(today.getDate()).padStart(2, '0');
-  var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-  var yyyy = today.getFullYear();
+    var numEvent = 1;
+    $.each(json.events, function(numEvent, event) {
+      $("#eventTmpl").clone().attr("id", "event" + numEvent).appendTo(".section").css("display", "block");
+      //Modify all elements within the new event
+      $("#event" + numEvent + " .event-pic").attr("src", event.pic_location);
+      $("#event" + numEvent + " .event-title").html(event.name);
+      $("#event" + numEvent + " .event-desc").html(event.description);
+      $("#event" + numEvent + " .event-date").html(event.date_string);
 
-  today = yyyy + '-' + mm + '-' + dd;
-
-  let numEvent = 0;
-  json.forEach(function (event) {
-    $("#eventTmpl").clone().attr("id", "event" + numEvent).appendTo(".section").css("display", "block");
-    //Modify all elements within the new event
-    $("#event"+numEvent+" .event-title").css("value", "yeet");
-
-    numEvent++;
+      numEvent++;
+    });
   });
 
 }
