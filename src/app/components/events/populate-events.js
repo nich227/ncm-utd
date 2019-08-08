@@ -6,7 +6,6 @@ function populateEvents() {
     let today = new Date();
 
     //Iterate through JSON file for events
-    var numEvent = 1;
     $.each(json.events, function (numEvent, event) {
       //NOTE: end_date is in UNIX time, *1000 for milliseconds
       let end_date = new Date(event.end_date * 1000);
