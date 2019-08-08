@@ -16,8 +16,9 @@ function populateEvents() {
       $("#event" + numEvent + " .event-pic").attr("src", event.pic_location);
       $("#event" + numEvent + " .event-title").html(event.name);
       $("#event" + numEvent + " .event-desc").html(event.description);
-      $("#event" + numEvent + " .event-date").html(event.date_string);
-
+      $("#event" + numEvent + " .event-date").html("<i class='fas fa-calendar-alt'></i> " + event.date_string);
+      $("#event" + numEvent + " .event-loc").html("<i class='fas fa-map-marker-alt'></i> " + event.location);
+      $("#event" + numEvent + " .event-loc-link").attr("href", event.maps_link);
       numEvent++;
     });
   });
