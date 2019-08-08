@@ -1,21 +1,24 @@
 function populateEvents() {
   //Get JSON file from repo
   $.getJSON("https://raw.githubusercontent.com/nich227/ncm-utd/master/src/assets/events.json", function (json) {
+
     //Get today's date
     let today = new Date();
-    let dd = String(today.getDate()).padStart(2, '0');
-    let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-    let yyyy = today.getFullYear();
 
-    today = yyyy + '-' + mm + '-' + dd;
-
+    //Iterate through JSON file for events
     var numEvent = 1;
     $.each(json.events, function (numEvent, event) {
-      let end_date = new Date(events.end_date);
-      if (end_date > today) {
+      let end_date = new Date(event.end_date * 1000);
+
+      //Check if the event has already passed
+      if (today < end_date) {
         $("#eventTmpl").clone().attr("id", "event" + numEvent).appendTo(".section").css("display", "block");
         //Modify all elements within the new event
         $("#event" + numEvent + " .event-pic").attr("src", event.pic_location);
+        if(typeof event.pic_scale !== 'undefined'){
+            $("#event" + numEvent + " .event-pic").attr("width", event.pic_scale);
+            $("#event" + numEvent + " .event-pic").attr("height", event.pic_scale);
+        }
         $("#event" + numEvent + " .event-title").text(event.name);
         $("#event" + numEvent + " .event-desc").text(event.description);
         $("#event" + numEvent + " .event-date").html("<i class='fas fa-calendar-alt'></i> " + event.date_string);
