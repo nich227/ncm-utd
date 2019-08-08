@@ -1,9 +1,9 @@
 {
     "events": [
         {
-            "pic_location": "https://cdnx.kincir.com/production/media/2017/oktober/5-teori-resep-rahasia-krabby-patty/feat-krabby-patty-1300x500.jpg",
+            "pic_location": "https://tmbidigitalassetsazure.blob.core.windows.net/secure/RMS/attachments/37/1200x1200/Slow-Cooked-Sunday-Chicken_exps29752_SSC2919296A03_22_5bC_RMS.jpg",
             "name": "Sunday Dinner",
-            "description": "Free food. What more could a college student want?",
+            "description": "Come to tonight's Sunday Dinner! Our speaker for today is Sandy Marshall, and she will be speaking about Fasting and its Relation to The Mass!",
             "date_string": "August 25, 2019 @ 7-9 pm",
             "end_date": "1566784800",
             "location": "Residence Hall West",
@@ -12,7 +12,7 @@
         
         {
             "pic_location": "https://pbs.twimg.com/profile_images/758026117638873088/fV0zvwJ0.jpg",
-            "pic_scale": "67%",
+            "pic_scale": "35%",
             "name": "Temoc Visit",
             "description": "Temoc's coming. Be ready.",
             "date_string": "September 21, 2018 @ 9-10 pm",

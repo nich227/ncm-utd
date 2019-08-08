@@ -27,7 +27,7 @@ function populateEvents() {
         if (typeof event.maps_link !== 'undefined')
           $("#event" + numEvent + " .event-loc").attr("href", event.maps_link);
         else
-          $("#event" + numEvent + " .event-loc").attr("href", "");
+          $("#event" + numEvent + " .event-loc").removeAttr("href");
         numEvent++;
       }
     });
