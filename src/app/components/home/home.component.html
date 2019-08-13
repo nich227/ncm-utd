@@ -9,14 +9,43 @@
   <app-navbar></app-navbar>
 
   <!--Hero with header and footer-->
-  <section class="hero is-warning is-bold is-fullheight">
+  <section class="hero is-warning is-fullheight has-background">
     <!--Body-->
+    <img class="hero-background is-transparent" src="../../../assets/home-cover.jpg">
     <div class="hero-body">
       <div class="container has-text-centered">
-        <h1 class="title">Join the largest community for Catholics at UT Dallas.</h1>
+        <h1 class="title">"He is waiting for you when nothing else you find satisfies you."<br><br>- St. John Paul II
+        </h1>
       </div>
     </div>
   </section>
+  <br>
+  <div class="tile is-ancestor">
+    <div class="tile is-vertical is-parent">
+      <article class="tile is-child notification is-primary">
+        <a routerLink="/events" style="text-decoration: none">
+          <p class="title tile-title">Events</p>
+        </a>
+      </article>
+      <article class="tile is-child notification is-danger">
+        <a routerLink="/support-us" style="text-decoration: none">
+          <p class="title tile-title">Support Us</p>
+        </a>
+      </article>
+    </div>
+    <div class="tile is-vertical is-parent">
+      <article class="tile is-child notification is-success">
+        <a routerLink="/get-involved" style="text-decoration: none">
+          <p class="title tile-title">Get Involved</p>
+        </a>
+      </article>
+      <article class="tile is-child notification is-info">
+        <a routerLink="/about-ncm" style="text-decoration: none">
+          <p class="title tile-title">About Us</p>
+        </a>
+      </article>
+    </div>
+  </div>
 
   <!--Footer-->
   <app-footer></app-footer>
