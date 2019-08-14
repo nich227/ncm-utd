@@ -1,2 +1,23 @@
 body
   font-family: 'Rubik', sans-serif
+.tile-title, .subtitle, .card-content, .button 
+  text-align: center
+.tile-title
+  font-size: 24px
+.subtitle
+  font-size: 16px
+.card
+  padding-top: 24px
+  padding-bottom: 24px
+.hero
+  &.has-background
+    position: relative
+    overflow: hidden
+  &-background 
+    position: absolute
+    object-fit: cover
+    object-position: center center
+    width: 100%
+    height: 100%
+    &.is-transparent 
+      opacity: 0.3
