@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import $ from "jquery";
-import { timeout } from 'q';
 
 declare function populateEvents(): any;
 

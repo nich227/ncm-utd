@@ -5,6 +5,7 @@ import { EventsComponent } from './components/events/events.component';
 import { SupportNcmComponent } from './components/support-ncm/support-ncm.component';
 import { GetInvolvedComponent } from './components/get-involved/get-involved.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
+import { SundayReadingComponent } from './components/sunday-reading/sunday-reading.component';
 
 const routes: Routes = [
   {
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path: 'about-ncm',
     component: AboutUsComponent
+  },
+  {
+    path: 'sunday-reading',
+    component: SundayReadingComponent
   }
 ];
 
