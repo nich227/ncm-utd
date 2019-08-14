@@ -4,7 +4,8 @@ var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yy = String(today.getFullYear());
 yy = yy.substring(2, yy.length);
 dd = parseInt(dd);
-dd = dd + 7 - today.getDay();
+if (today.getDay() != 0)
+  dd = dd + 7 - today.getDay();
 
 function bodyLoad() {
   $("#title").html("Sunday Reading:<br>" + mm + "-" + dd + "-" + yy);
