@@ -7,7 +7,7 @@ dd = parseInt(dd);
 dd = dd + today.getDay() + 1;
 
 function bodyLoad() {
-  $("#title").html("Sunday Reading: " + mm + "-" + dd + "-" + yy);
+  $("#title").html("Sunday Reading:<br>" + mm + "-" + dd + "-" + yy);
 }
 
 function clickOpen() {
