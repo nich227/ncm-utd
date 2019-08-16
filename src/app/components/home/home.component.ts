@@ -14,5 +14,14 @@ export class HomeComponent implements OnInit {
     $(document).ready(function() {
       $("body").fadeIn(1000);
     });
+
+    $(".overflow").click(function() {
+      $("html,body").animate(
+        {
+          scrollTop: $("#links").offset().top
+        },
+        "slow"
+      );
+    });
   }
 }

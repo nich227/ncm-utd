@@ -15,6 +15,15 @@ export class SupportNcmComponent implements OnInit {
     $(document).ready(function() {
       $("body").fadeIn(1000);
     });
+
+    $(".overflow").click(function() {
+      $("html,body").animate(
+        {
+          scrollTop: $("#support").offset().top
+        },
+        "slow"
+      );
+    });
   }
 
 }
