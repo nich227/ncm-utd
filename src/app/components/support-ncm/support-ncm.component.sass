@@ -2,7 +2,7 @@ body
   font-family: 'Rubik', sans-serif
 .hero 
   background-color: #99738e
-.title
+.hero-title
   color: white
 .hero
   &.has-background
@@ -19,4 +19,27 @@ body
 .overflow
   transition: 0.3s
   font-family: 'Rubik', sans-serif
+.tile-title, .subtitle, .card-content, .button, .support
+  text-align: center
+.tile-title
+  font-size: 24px
+.subtitle
+  font-size: 16px
+@media screen and (min-width: 768px) 
+  .support
+    position: relative
+    top: 50%
+    transform: translateY(-50%)
+.venmo
+    fill: #3d95ce
+.venmo.button
+    color: #3d95ce 
+    border-color: #3d95ce 
+    transition: 0.3s
+.venmo.button:hover
+    background-color: #3d95ce
+    color: white
+.card
+    padding-top: 30px
+    padding-bottom: 30px
   
