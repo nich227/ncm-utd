@@ -14,3 +14,13 @@ body
     color: #808080
 .event-loc:hover 
     color: #c2c2c2
+.event-pic
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6)
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6)
+  -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6)
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6)
+@media screen and (min-width: 768px) 
+    .event-pic, .event-text
+        position: relative
+        top: 50%
+        transform: translateY(-50%)
