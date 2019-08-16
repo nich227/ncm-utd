@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+
 <head>
   <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
   <meta name="viewport" content="width: device-width, initial-scale=1">
@@ -18,12 +21,17 @@
         <h1 class="subtitle">- St. John Paul II</h1>
       </div>
     </div>
+    <div class="hero-foot">
+      <div class="container">
+        <a href="#links"><i class="fas fa-angle-down fa-2x"></i></a>
+      </div>
+    </div>
   </section>
 
   <br>
 
   <!--Navigation-->
-  <div class="tile is-ancestor">
+  <div class="tile is-ancestor" id="links">
     <div class="tile is-vertical is-parent">
       <article class="tile is-child notification is-primary">
         <a routerLink="/events" style="text-decoration: none">
@@ -53,3 +61,5 @@
   <!--Footer-->
   <app-footer></app-footer>
 </body>
+
+</html>

@@ -1,13 +1,13 @@
 {
     "events": [
         {
-            "pic_location": "https://tmbidigitalassetsazure.blob.core.windows.net/secure/RMS/attachments/37/1200x1200/Slow-Cooked-Sunday-Chicken_exps29752_SSC2919296A03_22_5bC_RMS.jpg",
+            "pic_location": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-board-games-2018-1538589179.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
             "pic_scale": "45%",
-            "name": "Sunday Dinner",
-            "description": "Come to tonight's Sunday Dinner! Our speaker for today is Sandy Marshall, and she will be speaking about Fasting and its Relation to The Mass!",
-            "date_string": "August 25, 2019 @ 7-9 pm",
+            "name": "Game Night",
+            "description": "Come out for a night of Board Games, Smash Bros, and Fellowship!",
+            "date_string": "August 19, 2019 @ TBA",
             "end_date": "1566784800",
-            "location": "Residence Hall West",
+            "location": "TBA",
             "maps_link": "https://www.google.com/maps/place/Residence+Hall+West/@32.990478,-96.7568509,17z/data=!3m1!4b1!4m5!3m4!1s0x864c2201603e1113:0xde7e44f6e5288438!8m2!3d32.990478!4d-96.7546622"
         },
         
