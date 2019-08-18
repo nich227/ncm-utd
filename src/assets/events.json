@@ -1,17 +1,6 @@
 {
     "events": [
         {
-            "pic_location": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-board-games-2018-1538589179.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
-            "pic_scale": "45%",
-            "name": "Game Night",
-            "description": "Bring your A game Comets, cause it's Game Night! Come and join us for an evening of fun and games.",
-            "date_string": "August 20, 2019 @ 7-9 pm",
-            "end_date": "1566352800",
-            "location": "Phase 2 Clubhouse",
-            "maps_link": "https://www.ghttps://www.google.com/maps/place/Phase+2+Clubhouse/@32.9826071,-96.7558345,17.94z/data=!4m5!3m4!1s0x864c21f93cdadfbf:0x34c3a152e65cbadc!8m2!3d32.9827549!4d-96.7558864"
-        },
-        
-        {
             "pic_location": "https://stmarkomaha.org/wp-content/uploads/2019/04/Bible-Study.jpg",
             "pic_scale": "35%",
             "name": "Poolside Bible Study",
@@ -20,6 +9,17 @@
             "end_date": "1566258300",
             "location": "Phase 8 Clubhouse",
             "maps_link": "https://www.google.com/maps/place/2800+Waterview+Pkwy,+Richardson,+TX+75080/@32.9891042,-96.7536982,18.56z/data=!4m5!3m4!1s0x864c2201ecc99e2f:0x74498e93dea07483!8m2!3d32.9889173!4d-96.7530794"
+        },
+        
+        {
+            "pic_location": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-board-games-2018-1538589179.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+            "pic_scale": "45%",
+            "name": "Game Night",
+            "description": "Bring your A game Comets, cause it's Game Night! Come and join us for an evening of fun and games.",
+            "date_string": "August 20, 2019 @ 7-9 pm",
+            "end_date": "1566352800",
+            "location": "Phase 2 Clubhouse",
+            "maps_link": "https://www.ghttps://www.google.com/maps/place/Phase+2+Clubhouse/@32.9826071,-96.7558345,17.94z/data=!4m5!3m4!1s0x864c21f93cdadfbf:0x34c3a152e65cbadc!8m2!3d32.9827549!4d-96.7558864"
         },
 
         {
