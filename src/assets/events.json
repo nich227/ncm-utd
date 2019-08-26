@@ -1,58 +1,47 @@
 {
-    "events": [
-        {
-            "pic_location": "https://stmarkomaha.org/wp-content/uploads/2019/04/Bible-Study.jpg",
-            "pic_scale": "35%",
-            "name": "Poolside Bible Study",
-            "description": "Join us as we explore Scripture and study God's word at the Phase 8 Clubhouse with watermelon and popsicles to follow.",
-            "date_string": "August 19, 2019 @ 5:30-6:45 pm",
-            "end_date": "1566258300",
-            "location": "Residence Hall South Classroom",
-            "maps_link": "https://www.google.com/maps/place/2800+Waterview+Pkwy,+Richardson,+TX+75080/@32.9891042,-96.7536982,18.56z/data=!4m5!3m4!1s0x864c2201ecc99e2f:0x74498e93dea07483!8m2!3d32.9889173!4d-96.7530794"
-        },
+  "events": [
+    {
+      "pic_location": "https://stmarkomaha.org/wp-content/uploads/2019/04/Bible-Study.jpg",
+      "pic_scale": "35%",
+      "name": "Poolside Bible Study",
+      "description": "Join us as we explore Scripture and study God's word at the Phase 8 Clubhouse.",
+      "date_string": "August 26, 2019 @ 5:30-6:45 pm",
+      "end_date": "1566845100",
+      "location": "Phase 8 Clubhouse",
+      "maps_link": "https://www.google.com/maps/place/2800+Waterview+Pkwy,+Richardson,+TX+75080/@32.9891042,-96.7536982,18.56z/data=!4m5!3m4!1s0x864c2201ecc99e2f:0x74498e93dea07483!8m2!3d32.9889173!4d-96.7530794"
+    },
 
-        {
-            "pic_location": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-board-games-2018-1538589179.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
-            "pic_scale": "45%",
-            "name": "Game Night",
-            "description": "Bring your A game Comets, cause it's Game Night! Come and join us for an evening of fun and games.",
-            "date_string": "August 20, 2019 @ 7-9 pm",
-            "end_date": "1566352800",
-            "location": "Phase 2 Clubhouse",
-            "maps_link": "https://www.ghttps://www.google.com/maps/place/Phase+2+Clubhouse/@32.9826071,-96.7558345,17.94z/data=!4m5!3m4!1s0x864c21f93cdadfbf:0x34c3a152e65cbadc!8m2!3d32.9827549!4d-96.7558864"
-        },
+    {
+      "pic_location": "http://www.districtchurch.org/monkimage.php?mediaDirectory=mediafiles&mediaId=5142031&fileName=small-groups-0-0-350-0.png",
+      "pic_scale": "35%",
+      "name": "Men's Small Group",
+      "description": "",
+      "date_string": "August 29, 2019 @ 7-9 pm",
+      "end_date": "1567112400",
+      "location": "UV Phase 8 Apt 5633",
+      "maps_link": "https://www.google.com/maps/place/Building+57/@32.989225,-96.7536948,18.39z/data=!4m5!3m4!1s0x0:0x6af062fbbb4c15f0!8m2!3d32.9893312!4d-96.7523137"
+    },
 
-        {
-            "pic_location": "https://www.kygardensupplies.com/sites/kygarden/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/d/o/dog_frisbee.jpg",
-            "pic_scale": "35%",
-            "name": "Frisbee & Spikeball",
-            "description": "Soak up the sun while playing frisbee and spikeball. All are welcome to participate!",
-            "date_string": "August 21, 2019 @ 7-8:30 pm",
-            "end_date": "1566437400",
-            "location": "Residence Hall West Courtyard",
-            "maps_link": "https://www.google.com/maps/place/Residence+Hall+West/@32.9915271,-96.7548627,17.42z/data=!4m5!3m4!1s0x864c2201603e1113:0xde7e44f6e5288438!8m2!3d32.990478!4d-96.7546619"
-        },
+    {
+      "pic_location": "http://www.districtchurch.org/monkimage.php?mediaDirectory=mediafiles&mediaId=5142031&fileName=small-groups-0-0-350-0.png",
+      "pic_scale": "35%",
+      "name": "Women's Small Group",
+      "description": "",
+      "date_string": "August 29, 2019 @ 7-9 pm",
+      "end_date": "1567112400",
+      "location": "UV Phase 1 Apt 1121 (WSG)",
+      "maps_link": "https://www.google.com/maps/place/Phase+1+(Buildings+2-12)/@32.9843183,-96.7556674,17.63z/data=!4m5!3m4!1s0x864c21ff4bc55555:0x93a26cc25a9cccd0!8m2!3d32.9845778!4d-96.7546727"
+    },
 
-        {
-            "pic_location": "https://sugarspunrun.com/wp-content/uploads/2018/07/Ice-Cream-Cone-Cupcakes-Recipe-1-of-1-6.jpg",
-            "pic_scale": "35%",
-            "name": "WMSG Activities",
-            "description": "The Women's and Men's Small Groups will conduct a fun evening of fellowship with the ladies, hosting an ice cream social and movie. Gentlemen will enjoy a night of Smash Bros and Board games.",
-            "date_string": "August 22, 2019 @ 7-9 pm",
-            "end_date": "1566525600",
-            "location": "UV Phase 1 Apt 1121 (WSG), UV Apt 5633 (MSG)",
-            "maps_link": "https://www.google.com/maps/place/Phase+1+(Buildings+2-12)/@32.9843183,-96.7556674,17.63z/data=!4m5!3m4!1s0x864c21ff4bc55555:0x93a26cc25a9cccd0!8m2!3d32.9845778!4d-96.7546727"
-        },
-
-        {
-            "pic_location": "https://www.inspiredtaste.net/wp-content/uploads/2016/07/Pancake-Recipe-1-1200.jpg",
-            "pic_scale": "35%",
-            "name": "Pancake Night",
-            "description": "Comets, you made it through the first week of classes! Come have a flipping good time (pun definitely intended) at NCM's very own Pancake night.",
-            "date_string": "August 23, 2019 @ 7-9 pm",
-            "end_date": "1566612000",
-            "location": "Residence Hall West",
-            "maps_link": "https://www.google.com/maps/place/Residence+Hall+West/@32.9895787,-96.7556845,17.52z/data=!4m5!3m4!1s0x864c2201603e1113:0xde7e44f6e5288438!8m2!3d32.990478!4d-96.7546619"
-        }
-    ]
+    {
+      "pic_location": "https://www.inspiredtaste.net/wp-content/uploads/2016/07/Pancake-Recipe-1-1200.jpg",
+      "pic_scale": "35%",
+      "name": "Sunday Dinner",
+      "description": "Comets, you made it through the week! Treat yourself to free food and fellowship.",
+      "date_string": "September 1, 2019 @ 7-9 pm",
+      "end_date": "1567371600",
+      "location": "ECSW 1.365",
+      "maps_link": "https://www.google.com/maps/place/Residence+Hall+West/@32.9895787,-96.7556845,17.52z/data=!4m5!3m4!1s0x864c2201603e1113:0xde7e44f6e5288438!8m2!3d32.990478!4d-96.7546619"
+    }
+  ]
 }
