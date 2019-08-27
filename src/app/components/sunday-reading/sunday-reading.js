@@ -53,12 +53,14 @@ else if (mm >= 8) {
   if (mm % 2 === 0 && dd > 31) {
     dd -= 31;
     if(mm < 10) { String("0" + mm++); }
+    else { mm++; }
   }
 
   //Short month
   if (mm % 2 === 1 && dd > 30) {
     dd -= 30;
     if(mm < 10) { String("0" + mm++); }
+    else { mm++; }
   }
 }
 
