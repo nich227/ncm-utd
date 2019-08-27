@@ -34,13 +34,13 @@ else if (parseInt(mm) < 8) {
   //Long month
   if (parseInt(mm) % 2 === 1 && parseInt(dd) > 31) {
     dd = "0" + String(dd -= 31);
-    mm = "0" + String(mm++);
+    mm = "0" + String(parseInt(mm) + 1);
   }
 
   //Short month
   if (parseInt(mm) % 2 === 0 && parseInt(dd) > 30) {
     dd = "0" + String(dd -= 30);
-    mm = "0" + String(mm++);
+    mm = "0" + String(parseInt(mm) + 1);
   }
 }
 
@@ -49,14 +49,14 @@ else if (parseInt(mm) >= 8) {
   //Long month
   if (parseInt(mm) % 2 === 0 && parseInt(dd) > 31) {
     dd = "0" + String(dd -= 31);
-    if(parseInt(mm) < 10) { mm = "0" + String(mm++); }
+    if(parseInt(mm) < 10) { mm = "0" + String(parseInt(mm) + 1); }
     else { mm++; }
   }
 
   //Short month
   if (parseInt(mm) % 2 === 1 && parseInt(dd) > 30) {
     dd = "0" + String(dd -= 30);
-    if(parseInt(mm) < 10) { mm = "0" + String(mm++); }
+    if(parseInt(mm) < 10) { mm = "0" + String(parseInt(mm) + 1); }
     else { mm++; }
   }
 }
