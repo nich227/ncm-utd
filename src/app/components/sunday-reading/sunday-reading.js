@@ -2,15 +2,61 @@ var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yy = String(today.getFullYear());
-yy = yy.substring(2, yy.length);
+yy_short = yy.substring(2, yy.length);
 dd = parseInt(dd);
-if (today.getDay() != 0)
+if (today.getDay() != 0) {
   dd = dd + 7 - today.getDay();
+  
+  //Checking if date overflows
+  //February
+  if(mm === 2 && dd > 28) {
+    //Leap year
+    if(parseInt(yy) % 4 === 0 || (parseInt(yy) % 100 === 0 && parseInt(yy) % 400 === 0)) {
+       if(dd > 29) {
+         dd -= 29;
+         mm = 3;
+       }
+    }
+    
+    //Not leap year
+    else {
+      dd -= 28;
+      mm = 3;
+    }
+  }
+     
+  //Not February, before August
+  else if(mm < 8) {
+      //Long month
+      if(mm % 2 === 1 && dd > 31) {
+        dd -= 31;
+        mm++;
+      }
+      //Short month
+      if(mm % 2 === 0 && dd > 30) {
+        dd -= 30;
+        mm++;
+      }
+  }
+  
+  //On or after August
+  else if(mm >= 8) {
+      //Long month
+    if(mm % 2 === 0 && dd > 31) {
+      dd -= 31;
+      mm++;
+    }
+    //Short month
+    if(mm % 2 === 1 && dd > 30) {
+      dd -= 30;
+      mm++;
+    }
+  }
 
 function bodyLoad() {
-  $("#title").html("Sunday Reading:<br>" + mm + "-" + dd + "-" + yy);
+  $("#title").html("Sunday Reading:<br>" + mm + "-" + dd + "-" + yy_short);
 }
 
 function clickOpen() {
-  $("#open").attr("href", "http://www.usccb.org/bible/readings/" + mm + dd + yy + ".cfm");
+  $("#open").attr("href", "http://www.usccb.org/bible/readings/" + mm + dd + yy_short + ".cfm");
 }
