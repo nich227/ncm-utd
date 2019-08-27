@@ -2,7 +2,6 @@ var today = new Date();
 var dd = String(today.getDate()).padStart(2, "0");
 var mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
 var yy = String(today.getFullYear());
-yy_short = yy.substring(2, yy.length);
 dd = parseInt(dd);
 
 //Going to next Sunday, unless today is Sunday
@@ -45,7 +44,7 @@ else if (parseInt(mm) < 8) {
 }
 
 //On or after August
-else if (parseInt(mm) >= 8) {
+else if (parseInt(mm) >= 8 && parseInt(mm) <= 12) {
   //Long month
   if (parseInt(mm) % 2 === 0 && parseInt(dd) > 31) {
     dd = "0" + String(dd -= 31);
@@ -60,6 +59,15 @@ else if (parseInt(mm) >= 8) {
     else { mm++; }
   }
 }
+
+//Beyond the year
+else if(parseInt(mm) > 12) {
+   mm = "01";
+   dd = "0" + String(dd -= 31);
+   yy = String(parseInt(yy) + 1);
+}
+               
+yy_short = yy.substring(2, yy.length);
 
 function bodyLoad() {
   $("#title").html("Sunday Reading:<br>" + mm + "-" + dd + "-" + yy_short);
