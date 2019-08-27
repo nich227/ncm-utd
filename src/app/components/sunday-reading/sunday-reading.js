@@ -35,13 +35,13 @@ if (mm === 2 && dd > 28) {
 else if (mm < 8) {
   //Long month
   if (mm % 2 === 1 && dd > 31) {
-    dd -= 31;
+    String("0" + (dd -= 31));
     String("0" + mm++);
   }
 
   //Short month
   if (mm % 2 === 0 && dd > 30) {
-    dd -= 30;
+    String("0" + (dd -= 30));
     mm++;
     String("0" + mm++);
   }
@@ -51,14 +51,14 @@ else if (mm < 8) {
 else if (mm >= 8) {
   //Long month
   if (mm % 2 === 0 && dd > 31) {
-    dd -= 31;
+    String("0" + (dd -= 31));
     if(mm < 10) { String("0" + mm++); }
     else { mm++; }
   }
 
   //Short month
   if (mm % 2 === 1 && dd > 30) {
-    dd -= 30;
+    String("0" + (dd -= 30));
     if(mm < 10) { String("0" + mm++); }
     else { mm++; }
   }
