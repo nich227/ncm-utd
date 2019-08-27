@@ -20,14 +20,14 @@ if (mm === 2 && dd > 28) {
   ) {
     if (dd > 29) {
       dd -= 29;
-      mm = 3;
+      mm = "03";
     }
   }
 
   //Not leap year
   else {
     dd -= 28;
-    mm = 3;
+    mm = "03";
   }
 }
 
@@ -36,13 +36,14 @@ else if (mm < 8) {
   //Long month
   if (mm % 2 === 1 && dd > 31) {
     dd -= 31;
-    mm++;
+    String("0" + mm++);
   }
 
   //Short month
   if (mm % 2 === 0 && dd > 30) {
     dd -= 30;
     mm++;
+    String("0" + mm++);
   }
 }
 
@@ -51,13 +52,13 @@ else if (mm >= 8) {
   //Long month
   if (mm % 2 === 0 && dd > 31) {
     dd -= 31;
-    mm++;
+    if(mm < 10) { String("0" + mm++); }
   }
 
   //Short month
   if (mm % 2 === 1 && dd > 30) {
     dd -= 30;
-    mm++;
+    if(mm < 10) { String("0" + mm++); }
   }
 }
 
