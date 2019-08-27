@@ -12,11 +12,9 @@ if (today.getDay() != 0) {
 
 //Checking if date overflows
 //February
-if (mm === 2 && dd > 28) {
+if (parseInt(mm) === 2 && parseInt(dd) > 28) {
   //Leap year
-  if (
-    parseInt(yy) % 4 === 0 ||
-    (parseInt(yy) % 100 === 0 && parseInt(yy) % 400 === 0)
+  if (parseInt(yy) % 4 === 0 || (parseInt(yy) % 100 === 0 && parseInt(yy) % 400 === 0)
   ) {
     if (dd > 29) {
       dd -= 29;
@@ -32,34 +30,33 @@ if (mm === 2 && dd > 28) {
 }
 
 //Not February, before August
-else if (mm < 8) {
+else if (parseInt(mm) < 8) {
   //Long month
-  if (mm % 2 === 1 && dd > 31) {
-    String("0" + (dd -= 31));
-    String("0" + mm++);
+  if (parseInt(mm) % 2 === 1 && parseInt(dd) > 31) {
+    dd = "0" + String(dd -= 31);
+    mm = "0" + String(mm++);
   }
 
   //Short month
-  if (mm % 2 === 0 && dd > 30) {
-    String("0" + (dd -= 30));
-    mm++;
-    String("0" + mm++);
+  if (parseInt(mm) % 2 === 0 && parseInt(dd) > 30) {
+    dd = "0" + String(dd -= 30);
+    mm = "0" + String(mm++);
   }
 }
 
 //On or after August
-else if (mm >= 8) {
+else if (parseInt(mm) >= 8) {
   //Long month
-  if (mm % 2 === 0 && dd > 31) {
-    String("0" + (dd -= 31));
-    if(mm < 10) { String("0" + mm++); }
+  if (parseInt(mm) % 2 === 0 && parseInt(dd) > 31) {
+    dd = "0" + String(dd -= 31);
+    if(parseInt(mm) < 10) { mm = "0" + String(mm++); }
     else { mm++; }
   }
 
   //Short month
-  if (mm % 2 === 1 && dd > 30) {
-    String("0" + (dd -= 30));
-    if(mm < 10) { String("0" + mm++); }
+  if (parseInt(mm) % 2 === 1 && parseInt(dd) > 30) {
+    dd = "0" + String(dd -= 30);
+    if(parseInt(mm) < 10) { mm = "0" + String(mm++); }
     else { mm++; }
   }
 }
