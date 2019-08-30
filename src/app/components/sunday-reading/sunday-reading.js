@@ -76,6 +76,6 @@ function bodyLoad() {
 function clickOpen() {
   $("#open").attr(
     "href",
-    "http://www.usccb.org/bible/readings/" + mm + dd + yy_short + ".cfm"
+    "http://www.usccb.org/bible/readings/" + mm + dd + yy_short + ".cfm#cs_control_228453"
   );
 }
