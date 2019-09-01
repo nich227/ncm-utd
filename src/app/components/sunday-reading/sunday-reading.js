@@ -66,6 +66,11 @@ else if(parseInt(mm) > 12) {
    dd = "0" + String(dd -= 31);
    yy = String(parseInt(yy) + 1);
 }
+
+//Normal year and month
+else {
+  dd = "0" + String(dd -= 31);
+}
                
 yy_short = yy.substring(2, yy.length);
 
