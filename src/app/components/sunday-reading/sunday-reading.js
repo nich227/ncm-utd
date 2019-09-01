@@ -32,13 +32,13 @@ if (parseInt(mm) === 2 && parseInt(dd) > 28) {
 else if (parseInt(mm) < 8) {
   //Long month
   if (parseInt(mm) % 2 === 1 && parseInt(dd) > 31) {
-    dd = "0" + String(dd -= 31);
+    dd -= 31;
     mm = "0" + String(parseInt(mm) + 1);
   }
 
   //Short month
   if (parseInt(mm) % 2 === 0 && parseInt(dd) > 30) {
-    dd = "0" + String(dd -= 30);
+    dd = dd -= 30;
     mm = "0" + String(parseInt(mm) + 1);
   }
 }
@@ -47,30 +47,28 @@ else if (parseInt(mm) < 8) {
 else if (parseInt(mm) >= 8 && parseInt(mm) <= 12) {
   //Long month
   if (parseInt(mm) % 2 === 0 && parseInt(dd) > 31) {
-    dd = "0" + String(dd -= 31);
+    dd -= 31;
     if(parseInt(mm) < 10) { mm = "0" + String(parseInt(mm) + 1); }
-    else { mm++; }
+    else { mm = parseInt(mm) + 1; }
   }
 
   //Short month
   if (parseInt(mm) % 2 === 1 && parseInt(dd) > 30) {
-    dd = "0" + String(dd -= 30);
+    dd -= 30;
     if(parseInt(mm) < 10) { mm = "0" + String(parseInt(mm) + 1); }
-    else { mm++; }
+    else { mm = parseInt(mm) + 1; }
   }
 }
 
 //Beyond the year
 else if(parseInt(mm) > 12) {
    mm = "01";
-   dd = "0" + String(dd -= 31);
+   dd -= 31;
    yy = String(parseInt(yy) + 1);
 }
 
-//Normal year and month
-else {
-  dd = "0" + String(dd -= 31);
-}
+//Convert back to string
+dd = "0" + String(dd);
                
 yy_short = yy.substring(2, yy.length);
 
