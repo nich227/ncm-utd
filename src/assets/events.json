@@ -4,7 +4,7 @@
       "pic_location": "https://stmarkomaha.org/wp-content/uploads/2019/04/Bible-Study.jpg",
       "pic_scale": "35%",
       "name": "Bible Study",
-      "description": "Join us as we explore Scripture and study God's word at the Phase 8 Clubhouse.",
+      "description": "Join us every Monday for Bible Study! This Monday we will continue our discussion about the following Sunday's Gospel reading.",
       "date_string": "August 26, 2019 @ 5:30-6:45 pm",
       "end_date": "1566845100",
       "location": "Phase 8 Clubhouse",
@@ -42,6 +42,18 @@
       "end_date": "1567371600",
       "location": "SSA 14.244",
       "maps_link": "https://www.google.com/maps/place/University+of+Texas+-+Dallas+Student+Services+Annex/@32.98629,-96.7498082,18.91z/data=!4m5!3m4!1s0x864c21fffd1d451b:0x7d17ea7436b269eb!8m2!3d32.9860824!4d-96.7495637"
+    },
+
+    {
+      "pic_location": "https://fscaston.org/wp-content/uploads/be-still-1.png",
+      "pic_scale": "35%",
+      "name": "Fall Retreat",
+      "description": "We will be having our annual Fall Retreat this Monday, September 2! We're going to start the day off strong with Mass at 9am at All Saints, followed by a jam-packed day of fun, fellowship, prayer, Eucharistic Adoration, small group discussion, and more! (We will be serving breakfast and lunch at the retreat, so don't worry about getting food.)",
+      "date_string": "September 2, 2019 @ 9 am - 3 pm",
+      "end_date": "1567436400",
+      "location": "All Saints Catholic Church",
+      "maps_link": "https://www.google.com/maps/place/All+Saints+Catholic+Church/@32.9632348,-96.7943405,17z/data=!3m1!4b1!4m5!3m4!1s0x864c2175616d0127:0x3c4c0a543daa485f!8m2!3d32.9632348!4d-96.7921518"
     }
+
   ]
 }
