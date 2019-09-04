@@ -6,6 +6,7 @@ import { SupportNcmComponent } from './components/support-ncm/support-ncm.compon
 import { GetInvolvedComponent } from './components/get-involved/get-involved.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { SundayReadingComponent } from './components/sunday-reading/sunday-reading.component';
+import { SigninFormComponent } from './components/signin-form/signin-form.component';
 
 const routes: Routes = [
   {
@@ -32,6 +33,10 @@ const routes: Routes = [
   {
     path: 'sunday-reading',
     component: SundayReadingComponent
+  },
+  {
+    path: 'signin-form', 
+    component: SigninFormComponent
   }
 ];
 
