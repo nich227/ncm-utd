@@ -16,8 +16,8 @@
       "pic_scale": "35%",
       "name": "Men's Small Group",
       "description": "",
-      "date_string": "August 29, 2019 @ 7-9 pm",
-      "end_date": "1567112400",
+      "date_string": "September 5, 2019, 2019 @ 7-9 pm",
+      "end_date": "1567735200",
       "location": "UV Phase 8 Apt 5633",
       "maps_link": "https://www.google.com/maps/place/Building+57/@32.989225,-96.7536948,18.39z/data=!4m5!3m4!1s0x0:0x6af062fbbb4c15f0!8m2!3d32.9893312!4d-96.7523137"
     },
@@ -27,8 +27,8 @@
       "pic_scale": "35%",
       "name": "Women's Small Group",
       "description": "",
-      "date_string": "August 29, 2019 @ 7-9 pm",
-      "end_date": "1567112400",
+      "date_string": "September 5, 2019 @ 7-9 pm",
+      "end_date": "1567735200",
       "location": "UV Phase 1 Apt 1121",
       "maps_link": "https://www.google.com/maps/place/Phase+1+(Buildings+2-12)/@32.9843183,-96.7556674,17.63z/data=!4m5!3m4!1s0x864c21ff4bc55555:0x93a26cc25a9cccd0!8m2!3d32.9845778!4d-96.7546727"
     },
@@ -38,22 +38,10 @@
       "pic_scale": "30%",
       "name": "Sunday Dinner",
       "description": "Comets, you made it through the week! Treat yourself to free food and fellowship.",
-      "date_string": "September 1, 2019 @ 7-9 pm",
-      "end_date": "1567476000",
+      "date_string": "September 8, 2019 @ 7-9 pm",
+      "end_date": "1567994400",
       "location": "SSA 14.244",
       "maps_link": "https://www.google.com/maps/place/University+of+Texas+-+Dallas+Student+Services+Annex/@32.98629,-96.7498082,18.91z/data=!4m5!3m4!1s0x864c21fffd1d451b:0x7d17ea7436b269eb!8m2!3d32.9860824!4d-96.7495637"
-    },
-
-    {
-      "pic_location": "https://fscaston.org/wp-content/uploads/be-still-1.png",
-      "pic_scale": "35%",
-      "name": "Fall Retreat",
-      "description": "We will be having our annual Fall Retreat this Monday, September 2! We're going to start the day off strong with Mass at 9am at All Saints, followed by a jam-packed day of fun, fellowship, prayer, Eucharistic Adoration, small group discussion, and more! (We will be serving breakfast and lunch at the retreat, so don't worry about getting food.)",
-      "date_string": "September 2, 2019 @ 9 am - 3 pm",
-      "end_date": "1567540800",
-      "location": "All Saints Catholic Church",
-      "maps_link": "https://www.google.com/maps/place/All+Saints+Catholic+Church/@32.9632348,-96.7943405,17z/data=!3m1!4b1!4m5!3m4!1s0x864c2175616d0127:0x3c4c0a543daa485f!8m2!3d32.9632348!4d-96.7921518"
     }
-
   ]
 }
