@@ -32,6 +32,17 @@
       "location": "UV Phase 1 Apt 1121",
       "maps_link": "https://www.google.com/maps/place/Phase+1+(Buildings+2-12)/@32.9843183,-96.7556674,17.63z/data=!4m5!3m4!1s0x864c21ff4bc55555:0x93a26cc25a9cccd0!8m2!3d32.9845778!4d-96.7546727"
     },
+    
+    {
+        "pic_location": "http://rs.cdn.catholic365.com/images/articles/jumbo/3230-4749b483-539e-4f5b-a3eb-181751af4929.jpg",
+        "pic_scale": "35%",
+        "name": "Mass on Campus",
+        "description": "This Friday, September 6, we will be celebrating mass on campus!",
+        "date_string": "September 6, 2019 @ 7 pm",
+        "end_date": "1567821600",
+        "location": "SSA 14.467",
+        "maps_link": "https://www.google.com/maps/place/University+of+Texas+-+Dallas+Student+Services+Annex/@32.98629,-96.7498082,18.91z/data=!4m5!3m4!1s0x864c21fffd1d451b:0x7d17ea7436b269eb!8m2!3d32.9860824!4d-96.7495637"
+    },
 
     {
       "pic_location": "https://cookthestory.com/wp-content/uploads/2017/05/Baked-Salmon-Dinner-DPV.jpg",
