@@ -12,6 +12,17 @@
     },
 
     {
+      "pic_location": "http://www.holyredeemercc.org/uploads/3/1/3/4/31345147/published/rcia.jpg?1552514180",
+      "pic_scale": "35%",
+      "name": "Inquiry",
+      "date_string": "September 10, 2019 @ 4:30-5:45 pm",
+      "description": "",
+      "end_date": "1568155500",
+      "location": "Phase 8 Clubhouse",
+      "maps_link": "https://www.google.com/maps/place/2800+Waterview+Pkwy,+Richardson,+TX+75080/@32.9891042,-96.7536982,18.56z/data=!4m5!3m4!1s0x864c2201ecc99e2f:0x74498e93dea07483!8m2!3d32.9889173!4d-96.7530794"
+    },
+
+    {
       "pic_location": "http://www.districtchurch.org/monkimage.php?mediaDirectory=mediafiles&mediaId=5142031&fileName=small-groups-0-0-350-0.png",
       "pic_scale": "35%",
       "name": "Men's Small Group",
@@ -32,16 +43,16 @@
       "location": "UV Phase 1 Apt 1121",
       "maps_link": "https://www.google.com/maps/place/Phase+1+(Buildings+2-12)/@32.9843183,-96.7556674,17.63z/data=!4m5!3m4!1s0x864c21ff4bc55555:0x93a26cc25a9cccd0!8m2!3d32.9845778!4d-96.7546727"
     },
-    
+
     {
-        "pic_location": "http://rs.cdn.catholic365.com/images/articles/jumbo/3230-4749b483-539e-4f5b-a3eb-181751af4929.jpg",
-        "pic_scale": "35%",
-        "name": "Mass on Campus",
-        "description": "This Friday, September 6, we will be celebrating mass on campus!",
-        "date_string": "September 6, 2019 @ 7 pm",
-        "end_date": "1567821600",
-        "location": "SSA 14.467",
-        "maps_link": "https://www.google.com/maps/place/University+of+Texas+-+Dallas+Student+Services+Annex/@32.98629,-96.7498082,18.91z/data=!4m5!3m4!1s0x864c21fffd1d451b:0x7d17ea7436b269eb!8m2!3d32.9860824!4d-96.7495637"
+      "pic_location": "http://rs.cdn.catholic365.com/images/articles/jumbo/3230-4749b483-539e-4f5b-a3eb-181751af4929.jpg",
+      "pic_scale": "35%",
+      "name": "Mass on Campus",
+      "description": "This Friday, September 6, we will be celebrating mass on campus!",
+      "date_string": "September 6, 2019 @ 7 pm",
+      "end_date": "1567821600",
+      "location": "SSA 14.467",
+      "maps_link": "https://www.google.com/maps/place/University+of+Texas+-+Dallas+Student+Services+Annex/@32.98629,-96.7498082,18.91z/data=!4m5!3m4!1s0x864c21fffd1d451b:0x7d17ea7436b269eb!8m2!3d32.9860824!4d-96.7495637"
     },
 
     {
