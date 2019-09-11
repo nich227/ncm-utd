@@ -13,7 +13,9 @@ if (today.getDay() != 0) {
 //February
 if (parseInt(mm) === 2 && parseInt(dd) > 28) {
   //Leap year
-  if (parseInt(yy) % 4 === 0 || (parseInt(yy) % 100 === 0 && parseInt(yy) % 400 === 0)
+  if (
+    parseInt(yy) % 4 === 0 ||
+    (parseInt(yy) % 100 === 0 && parseInt(yy) % 400 === 0)
   ) {
     if (dd > 29) {
       dd -= 29;
@@ -38,7 +40,7 @@ else if (parseInt(mm) < 8) {
 
   //Short month
   if (parseInt(mm) % 2 === 0 && parseInt(dd) > 30) {
-    dd = dd -= 30;
+    dd -= 30;
     mm = "0" + String(parseInt(mm) + 1);
   }
 }
@@ -48,28 +50,36 @@ else if (parseInt(mm) >= 8 && parseInt(mm) <= 12) {
   //Long month
   if (parseInt(mm) % 2 === 0 && parseInt(dd) > 31) {
     dd -= 31;
-    if(parseInt(mm) < 10) { mm = "0" + String(parseInt(mm) + 1); }
-    else { mm = parseInt(mm) + 1; }
+    if (parseInt(mm) < 10) {
+      mm = "0" + String(parseInt(mm) + 1);
+    } else {
+      mm = parseInt(mm) + 1;
+    }
   }
 
   //Short month
   if (parseInt(mm) % 2 === 1 && parseInt(dd) > 30) {
     dd -= 30;
-    if(parseInt(mm) < 10) { mm = "0" + String(parseInt(mm) + 1); }
-    else { mm = parseInt(mm) + 1; }
+    if (parseInt(mm) < 10) {
+      mm = "0" + String(parseInt(mm) + 1);
+    } else {
+      mm = parseInt(mm) + 1;
+    }
   }
 }
 
 //Beyond the year
-else if(parseInt(mm) > 12) {
-   mm = "01";
-   dd -= 31;
-   yy = String(parseInt(yy) + 1);
+else if (parseInt(mm) > 12) {
+  mm = "01";
+  dd -= 31;
+  yy = String(parseInt(yy) + 1);
 }
 
 //Convert back to string
-dd = "0" + String(dd);
-               
+if (dd < 10) {
+  dd = "0" + String(dd);
+}
+
 yy_short = yy.substring(2, yy.length);
 
 function bodyLoad() {
@@ -79,6 +89,10 @@ function bodyLoad() {
 function clickOpen() {
   $("#open").attr(
     "href",
-    "http://www.usccb.org/bible/readings/" + mm + dd + yy_short + ".cfm#cs_control_228453"
+    "http://www.usccb.org/bible/readings/" +
+      mm +
+      dd +
+      yy_short +
+      ".cfm#cs_control_228453"
   );
 }
