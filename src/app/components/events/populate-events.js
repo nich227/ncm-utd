@@ -1,4 +1,7 @@
 function populateEvents() {
+
+  $('#monthly_cal').hide();
+  
   //Get JSON file from repo
   $.getJSON("https://raw.githubusercontent.com/nich227/ncm-utd/master/src/assets/events.json", function (json) {
 
@@ -28,6 +31,8 @@ function populateEvents() {
         else
           $("#event" + numEvent + " .event-loc").removeAttr("href");
         numEvent++;
+
+        $('#monthly_cal').appendTo(".section").show();
       }
     });
   });
