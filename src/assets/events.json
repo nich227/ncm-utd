@@ -2,7 +2,7 @@
   "events": [
     {
       "pic_location": "https://stmarkomaha.org/wp-content/uploads/2019/04/Bible-Study.jpg",
-      "pic_scale": "35%",
+      "pic_scale": "200px",
       "name": "Bible Study",
       "description": "Join us every Monday for Bible Study in the Phase 8 Clubhouse!",
       "date_string": "September 16, 2019 @ 5:30-6:45 pm",
@@ -13,7 +13,7 @@
 
     {
       "pic_location": "http://www.holyredeemercc.org/uploads/3/1/3/4/31345147/published/rcia.jpg?1552514180",
-      "pic_scale": "35%",
+      "pic_scale": "200px",
       "name": "Inquiry",
       "date_string": "September 17, 2019 @ 4:30-5:45 pm",
       "description": "Inquiry is a place for anyone from any background to come and ask questions about the Catholic faith, Catholic view on worldly topics, and how to communicate beliefs. It is a circle of conversation to help each other learn and be able to articulate your beliefs with trained Catechists to assist with accuracy in theology. It's a great way to learn more, and invite your friends to do the same.",
@@ -24,7 +24,7 @@
 
     {
       "pic_location": "https://1mpkoh2uj7ew36r28p3t8kxt11gl-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/ISS_4329_04526-660x350.jpg",
-      "pic_scale": "35%",
+      "pic_scale": "200px",
       "name": "Prayer on Campus",
       "date_string": "September 18, 2019 @ 1:15 pm",
       "description": "Join us in praying the Rosary at the TI Plaza!",
@@ -35,7 +35,7 @@
 
     {
       "pic_location": "https://s3.amazonaws.com/churchplantmedia-cms/harvest_baptist_salisbury/small-group-graphic_.jpg",
-      "pic_scale": "35%",
+      "pic_scale": "200px",
       "name": "Men's Small Group",
       "description": "Men's Small Group is a two hour period each week where the men of NCM come together to share in community, food, and prayer. During this time we reflect on the gospel for the week and discuss the topics that are on the hearts and minds of young men of faith today.",
       "date_string": "September 19, 2019, 2019 @ 7-9 pm",
@@ -46,7 +46,7 @@
 
     {
       "pic_location": "https://s3.amazonaws.com/churchplantmedia-cms/harvest_baptist_salisbury/small-group-graphic_.jpg",
-      "pic_scale": "35%",
+      "pic_scale": "200px",
       "name": "Women's Small Group",
       "description": "Women's Small Group is a weekly activity where the ladies in NCM meet to have a ladies talk. We have discussions about several topics related to our faith and us. And there's always deserts!",
       "date_string": "September 19, 2019 @ 7-9 pm",
@@ -57,7 +57,7 @@
 
     {
       "pic_location": "http://rs.cdn.catholic365.com/images/articles/jumbo/3230-4749b483-539e-4f5b-a3eb-181751af4929.jpg",
-      "pic_scale": "35%",
+      "pic_scale": "200px",
       "name": "Mass on Campus",
       "description": "Come join us for Mass, on campus! Confession starts at 6pm, followed by Mass at 7 pm. We'll be playing games and serving food after Mass.",
       "date_string": "September 20, 2019 @ 7-9 pm",
@@ -68,7 +68,7 @@
 
     {
       "pic_location": "https://img.washingtonpost.com/wp-apps/imrs.php?src=https://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2017/03/16/Style/Images/iStock-536665840.JPG&w=480",
-      "pic_scale": "30%",
+      "pic_scale": "200px",
       "name": "Sunday Dinner",
       "description": "Comets, you made it through the week! Treat yourself to free food and fellowship. Our speaker tonight is Deacon Michael Bolesta and he will be talking about the Many Miracles of Jesus.",
       "date_string": "September 22, 2019 @ 7-9 pm",
