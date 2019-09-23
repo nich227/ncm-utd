@@ -30,7 +30,10 @@ function populateEvents() {
           $("#event" + numEvent + " .event-loc").attr("href", event.maps_link);
         else
           $("#event" + numEvent + " .event-loc").removeAttr("href");
-        numEvent++;
+        
+        //Only increment if event actually added to page
+        if (today < end_date)
+          numEvent++;
 
         $('#monthly_cal').appendTo(".section").show();
       }
