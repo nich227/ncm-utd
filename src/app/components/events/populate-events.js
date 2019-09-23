@@ -1,4 +1,6 @@
 function populateEvents() {
+  
+  let numEvent = 1;
 
   $('#monthly_cal').hide();
   
@@ -9,7 +11,7 @@ function populateEvents() {
     let today = new Date();
 
     //Iterate through JSON file for events
-    $.each(json.events, function (numEvent, event) {
+    $.each(json.events, function (i, event) {
       //NOTE: end_date is in UNIX time, *1000 for milliseconds
       let end_date = new Date(event.end_date * 1000);
 
@@ -30,6 +32,8 @@ function populateEvents() {
           $("#event" + numEvent + " .event-loc").attr("href", event.maps_link);
         else
           $("#event" + numEvent + " .event-loc").removeAttr("href");
+       
+        numEvent++;
 
         $('#monthly_cal').appendTo(".section").show();
       }
