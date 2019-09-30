@@ -53,7 +53,7 @@ else if (parseInt(mm) >= 8 && parseInt(mm) <= 12) {
     if (parseInt(mm) < 10) {
       mm = "0" + String(parseInt(mm) + 1);
     } else {
-      mm = parseInt(mm) + 1;
+      mm = String(parseInt(mm) + 1);
     }
   }
 
@@ -63,7 +63,7 @@ else if (parseInt(mm) >= 8 && parseInt(mm) <= 12) {
     if (parseInt(mm) < 10) {
       mm = "0" + String(parseInt(mm) + 1);
     } else {
-      mm = parseInt(mm) + 1;
+      mm = String(parseInt(mm) + 1);
     }
   }
 }
