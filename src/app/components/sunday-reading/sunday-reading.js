@@ -60,7 +60,7 @@ else if (parseInt(mm) >= 8 && parseInt(mm) <= 12) {
   //Short month
   if (parseInt(mm) % 2 === 1 && parseInt(dd) > 30) {
     dd -= 30;
-    if (parseInt(mm) < 10) {
+    if (parseInt(mm) + 1 < 10) {
       mm = "0" + String(parseInt(mm) + 1);
     } else {
       mm = String(parseInt(mm) + 1);
