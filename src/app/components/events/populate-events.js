@@ -40,4 +40,7 @@ function populateEvents() {
     });
   });
 
+  //Append view monthly calendar button even if there are no events
+  $('#monthly_cal').appendTo(".section").show();
+
 }
