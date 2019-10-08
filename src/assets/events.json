@@ -78,14 +78,14 @@
     },
 
     {
-      "pic_location": "https://img.washingtonpost.com/wp-apps/imrs.php?src=https://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2017/03/16/Style/Images/iStock-536665840.JPG&w=480",
+      "pic_location": "https://d2y1pz2y630308.cloudfront.net/5104/pictures/2019/9/Cardinal%20Newman%20Graphic.png",
       "pic_scale": "200px",
       "name": "John Henry Newman's Canonization",
-      "description": "In celebration of John Henry Newman's canonization, our club's namesake, we will be attending Mass at St. Rita's Catholic Church!",
-      "date_string": "October 6, 2019 @ 7-9 pm",
-      "end_date": "1570413600",
-      "location": "SSA 14.244",
-      "maps_link": "https://www.google.com/maps/place/UT+Dallas+-+Engineering+Building,+ECS+West./@32.9859143,-96.7512445,17z/data=!4m5!3m4!1s0x0:0xce4623a971aed7b3!8m2!3d32.9860971!4d-96.7516371"
+      "description": "In celebration of John Henry Newman's canonization, our club's namesake, we will be attending Mass at St. Rita's Catholic Church! Join us for this special celebration, as well as food and fellowship afterwards.",
+      "date_string": "October 13, 2019 @ 5:30 pm",
+      "end_date": "1571013000",
+      "location": "St. Rita's Catholic Church",
+      "maps_link": "https://www.google.com/maps/place/St.+Rita+Catholic+Community/@32.919397,-96.8192165,15z/data=!4m5!3m4!1s0x0:0x4c6380320b39fb14!8m2!3d32.919397!4d-96.8192165"
     }
   ]
 }
