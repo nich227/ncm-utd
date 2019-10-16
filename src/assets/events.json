@@ -26,11 +26,22 @@
       "pic_location": "https://raw.githubusercontent.com/nich227/ncm-utd/master/src/assets/event-images/wed-rosary.jpg",
       "pic_scale": "200px",
       "name": "Prayer on Campus",
-      "date_string": "October 9, 2019 @ 1:15 pm",
+      "date_string": "October 16, 2019 @ 1:15 pm",
       "description": "Join us in praying the Rosary at the TI Plaza every Wednesday!",
       "end_date": "1571253300",
       "location": "TI Plaza",
       "maps_link": "https://www.google.com/maps/place/University+of+Texas+at+Dallas+-+North+Campus+Fountain+and+Event+Space/@32.9880627,-96.7487666,19.38z/data=!4m5!3m4!1s0x864c18aaa2ab76dd:0x43a0a488accc274d!8m2!3d32.9880825!4d-96.7487396"
+    },
+
+    {
+      "pic_location": "https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/72415322_3052816531401251_4519411459276406784_n.jpg?_nc_cat=106&_nc_oc=AQmFL2MSvuWPL_4xYCUdqIwbvR7Q8BraQsn1Da4iFKlpXKaCvh5P85suC_gfZHjw8hE&_nc_ht=scontent-dfw5-2.xx&oh=383d22b6b66e32538003de2edf62768f&oe=5E298602",
+      "pic_scale": "200px",
+      "name": "Rosary Making and Praise and Worship",
+      "date_string": "October 16, 2019 @ 7-9 pm",
+      "description": "Are you a crafty Catholic/Christian/Character? I think so! Come make rosaries with us and sing some Praise & Worship!",
+      "end_date": "1571277600",
+      "location": "Galaxy Room A",
+      "maps_link": "https://www.google.com/maps/place/Smoothie+King/@32.9863828,-96.749015,19.13z/data=!4m5!3m4!1s0x864c1f34bfe09aa3:0x3527a0adef631f85!8m2!3d32.9866753!4d-96.7487899"
     },
 
     {
