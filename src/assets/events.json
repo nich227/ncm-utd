@@ -56,6 +56,17 @@
     },
 
     {
+      "pic_location": "http://rs.cdn.catholic365.com/images/articles/jumbo/3230-4749b483-539e-4f5b-a3eb-181751af4929.jpg",
+      "pic_scale": "200px",
+      "name": "Mass on Campus",
+      "description": "Come join us for Mass, on campus! Confession starts at 6pm, followed by Mass at 7 pm. We'll be playing games and serving food after Mass.",
+      "date_string": "November 8, 2019 @ 7-9 pm",
+      "end_date": "1573268400",
+      "location": "Res Hall South MPR",
+      "maps_link": "https://www.google.com/maps/place/University+Commons/@32.9900572,-96.7518261,19.17z/data=!4m5!3m4!1s0x0:0x36069a22eee0f47c!8m2!3d32.9898622!4d-96.7514094"
+    },
+
+    {
       "pic_location": "https://img.washingtonpost.com/wp-apps/imrs.php?src=https://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2017/03/16/Style/Images/iStock-536665840.JPG&w=480",
       "pic_scale": "200px",
       "name": "Sunday Dinner",
