@@ -34,6 +34,17 @@
     },
 
     {
+      "pic_location": "https://document-export.canva.com/DADrCWgpvEg/82/preview/0001-3990152854.png",
+      "pic_scale": "200px",
+      "name": "Dallas Schools Tornado Relief Fundraiser",
+      "date_string": "November 14, 2019 @ 10:30 am - 9 pm",
+      "description": "20% of all sales (delivery or in-store) will go towards helping teachers and students recovering from the destruction of their campuses. Come out to Jimmy John's to support students and teachers affected by the recent Dallas tornado.",
+      "end_date": "1573786800",
+      "location": "Jimmy John's",
+      "maps_link": "https://www.google.com/maps/place/Jimmy+John's/@32.9934673,-96.7502139,20.17z/data=!4m10!1m4!7m3!1m1!1s112775038462650622690!2e2!3m4!1s0x864c18a9ca08f349:0x44e38f7f3064c217!8m2!3d32.9934498!4d-96.7500117"
+    },
+
+    {
       "pic_location": "https://raw.githubusercontent.com/nich227/ncm-utd/master/src/assets/event-images/msg.PNG",
       "pic_scale": "200px",
       "name": "Men's Small Group",
