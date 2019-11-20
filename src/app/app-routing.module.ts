@@ -7,6 +7,7 @@ import { GetInvolvedComponent } from './components/get-involved/get-involved.com
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { SundayReadingComponent } from './components/sunday-reading/sunday-reading.component';
 import { SigninFormComponent } from './components/signin-form/signin-form.component';
+import { StoreComponent } from './components/store/store.component';
 
 const routes: Routes = [
   {
@@ -37,6 +38,10 @@ const routes: Routes = [
   {
     path: 'signin-form', 
     component: SigninFormComponent
+  },
+  {
+    path: 'store',
+    component: StoreComponent
   }
 ];
 

@@ -1,0 +1,38 @@
+body
+  font-family: 'Rubik', sans-serif
+.section
+  margin: 0px
+.tile-title,.button
+  text-align: center
+.tile-title
+  font-size: 24px
+.subtitle
+  font-size: 16px
+.item-img
+  width: 200px
+  height: auto
+.card
+  padding-top: 24px
+  padding-bottom: 24px
+.button
+  transition: 0.3s
+.hero
+  &.has-background
+    position: relative
+    overflow: hidden
+  &-background
+    position: absolute
+    object-fit: cover
+    object-position: center center
+    width: 100%
+    height: 100%
+    &.is-transparent
+      opacity: 0.3
+.overflow
+  transition: 0.3s
+  font-family: 'Rubik', sans-serif
+@media screen and (min-width: 768px) 
+  .social
+    position: relative
+    top: 50%
+    transform: translateY(-50%)
