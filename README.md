@@ -1,4 +1,3 @@
-![alt text](https://newmanutd.org/assets/logos/ncm-logo.png "NCM logo")
 # Newman Catholic Ministry Website
 
 The official website of the Newman Catholic Ministry club at UT Dallas.
