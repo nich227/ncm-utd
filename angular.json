@@ -129,6 +129,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ncm-utd"
+    }
+  },
+  "defaultProject": "ncm-utd",
+  "cli": {
+    "analytics": "c1c0d4a4-e93c-4880-8cf4-7901e98a3f3e"
+  }
 }
