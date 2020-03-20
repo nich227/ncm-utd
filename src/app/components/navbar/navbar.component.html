@@ -1,14 +1,28 @@
 <!--FontAwesome Icons-->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+/>
 
 <!--Navbar-->
 <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://newmanutd.org">
-      <img src="../../../assets/logos/ncm-logo.png" alt="Newman Catholic Ministry at UT Dallas">
+      <img
+        src="../../../assets/logos/ncm-logo.png"
+        alt="Newman Catholic Ministry at UT Dallas"
+      />
     </a>
 
-    <a (click)="toggleNavbar()" role="button" #navBurger class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+    <a
+      (click)="toggleNavbar()"
+      role="button"
+      #navBurger
+      class="navbar-burger burger"
+      aria-label="menu"
+      aria-expanded="false"
+      data-target="navbarMenu"
+    >
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
@@ -19,10 +33,25 @@
     <div class="navbar-start">
       <a routerLink="/" class="navbar-item">Home</a>
       <a routerLink="/events" class="navbar-item">Events</a>
-      <a routerLink="/support-ncm" class="navbar-item">Support Us</a>      
-      <a routerLink="/store" class="navbar-item">Store</a>  
+      <a routerLink="/support-ncm" class="navbar-item">Support Us</a>
+      <a routerLink="/store" class="navbar-item">Store</a>
       <a routerLink="/get-involved" class="navbar-item">Get Involved</a>
       <a routerLink="/about-ncm" class="navbar-item">About Us</a>
     </div>
   </div>
 </nav>
+
+<!--Emergency message for COVID-19-->
+<div id="notifyBanner" class="notification is-danger is-light">
+  <button class="delete" (click)="closeNotification()"></button>
+  <b>Important announcement:</b>
+  For those of you who are unaware, the President of UT Dallas, Dr. Richard
+  Benson, just published a notice extending the period of spring break and
+  declaring a move to online classes for the rest of the semester, pending
+  further notice. Among the things to note is that all campus events are
+  canceled, effective immediately. Please rest assured that we are working
+  quickly and efficiently to implement a solution, and communicate with the
+  university to determine what this means for the future of NCM Events this
+  semester. We will keep you informed as further information becomes available,
+  and you will all be in our prayers.
+</div>
